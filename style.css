@@ -87,7 +87,7 @@ h1 {
 }
 
 
-/* @media(max-width: 500px) {
+@media screen and (max-width: 360px) {
   h1 {
     font-size: 40px;
   }
@@ -105,31 +105,12 @@ h1 {
     font-size: 10px;
   }
 
+  .year {
+    display: none;
+  }
 
-} */
 
-@media screen and (max-width: 320px)  {
-    .year {
-      font-size: 30px;
-      z-index: -1;
-      opacity: 0.4;
-      position: absolute;
-      bottom: 80px;
-      left: 50%;
-      transform: translateX(-50%);
-    }
+
+
 }
 
-@media screen and (max-width: 360px) 
-   
-   {
-    .year {
-      font-size: 30px;
-      z-index: -1;
-      opacity: 0.4;
-      position: absolute;
-      bottom: 120px;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-}
