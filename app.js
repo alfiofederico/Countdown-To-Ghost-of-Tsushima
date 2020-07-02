@@ -14,7 +14,7 @@ const currentYear = new Date().getFullYear();
 const releaseTime = new Date(`July 17 ${currentYear} 00:00:00`);
 let interval;
 
-year.innerText = 'July 17th 2020';
+/* year.innerText = 'July 17th 2020' */;
 
 function updateCountdown(){
   const currentTime = new Date();
