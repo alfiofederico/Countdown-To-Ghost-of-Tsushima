@@ -87,7 +87,7 @@ h1 {
 }
 
 
-@media(max-width: 500px) {
+/* @media(max-width: 500px) {
   h1 {
     font-size: 40px;
   }
@@ -104,4 +104,33 @@ h1 {
   .time small {
     font-size: 10px;
   }
+
+
+} */
+
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px)  
+  and (orientation: portrait) {
+    .year {
+      display: none;
+    }
+}
+
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px)  
+  and (orientation: portrait) {
+    .year {
+      display: none;
+    }
+}
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+   {
+    .year {
+      display: none;
+    }
 }
