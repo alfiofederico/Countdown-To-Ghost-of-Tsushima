@@ -106,7 +106,8 @@ h1 {
   }
 
   .year {
-    display: none;
+    font-size: 20px;
+    bottom: 200px;
   }
 
 
